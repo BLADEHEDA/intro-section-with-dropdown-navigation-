@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./bootstrap-4.6.1-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+
+</head>
+<body>
+  <main>
+    <div class="containerx">
+<!-- lefts build the  navbar of the page  -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"> <img src="./images/logo.svg" alt="logo" class="logo"> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active"  id="first">
+        <a class="nav-link" href="#" ><span class="nav2" > Features <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"  class="arrow"></span>  </a>
+      </li>
+      <li class="nav-item"  id="second">
+        <a class="nav-link" href="#"><span class="nav2" >Company <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down" class="arrows"> </span> </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"> <span class="nav2" >  Careers</span> </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"><span class="nav2" >About</span></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <a class="nav-link"><span class="nav2" >Login</span></a>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="register" >  Register</button>
+    </form>
+  </div>
+</nav>
+<!-- Lets buid the main section of the page  -->
+</div>
+<section class="row">
+  <div class="col-md-6 left" ">
+    <div class="content">
+      <h1 class="heading">Make<br>remote work</h1> 
+      <p class="texts">  Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar</p>
+      .
+      <button type="button" class="learn" >   Learn more</button>
+      <div class="pics">
+  <img src="./images/client-databiz.svg" alt="client-databiz" class="pic1">
+  <img src="./images/client-audiophile.svg" alt="client-audiophile" class="pic2"> 
+  <img src="./images/client-meet.svg" alt="client-meet" class="pic3">
+  <img src="./images/client-maker.svg" alt="client-maker" class="pic4">
+</div>
+
+<div id="Dropdown" class="dropdown-content">
+  <p href="#">Home</p>
+  <p href="#">Our Team</p>
+  <p href="#">Block</p>
+</div>
+<div class="dropdown1" id="dropdown1">
+   <p class="para" > <img src="./images/icon-todo.svg" alt="icon-todo"> <span>Todo list</span> </p>
+   <p class="para"> <img src="./images/icon-calendar.svg" alt="icon-calendar"> <span>Calendar</span> </p>
+   <p class="para"><img src="./images/icon-reminders.svg" alt="icon-reminders"> <span>Reminders</span>  </p>
+   <p class="para"><img src="./images/icon-planning.svg" alt="icon-planning"> <span>Planning</span> </p>
+</div>
+
+  </div>
+  </div>
+  <div class="col-md-6  right" > <img src="./images/image-hero-desktop.png" alt="image-hero-desktop" class="desktop"> </div>
+   <div class="col-md-6  right1 " > <img src="./images/image-hero-mobile.png" alt="image-hero-mobile" class="mobile"></div>
+</section>
+</div> 
+</main>
+<script src="index.js"></script>
+<script src="jquery.js"></script>
+<script src="./bootstrap-4.6.1-dist/js/bootstrap.js"></script>
+</body>
+</html>
